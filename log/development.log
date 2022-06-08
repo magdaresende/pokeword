@@ -1,0 +1,179 @@
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/" for ::1 at 2022-06-08 14:58:13 +0100
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/pichu/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/pichu/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.0ms | Allocations: 644)
+Completed 200 OK in 8ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 5021)
+
+
+Started GET "/" for ::1 at 2022-06-08 15:02:35 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PublicController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/index.html.erb within layouts/application
+  Rendered public/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 345)
+  Rendered layout layouts/application.html.erb (Duration: 526.7ms | Allocations: 136877)
+Completed 200 OK in 530ms (Views: 527.9ms | ActiveRecord: 0.0ms | Allocations: 140179)
+
+
+Started GET "/" for ::1 at 2022-06-08 15:02:56 +0100
+Processing by PublicController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/index.html.erb within layouts/application
+  Rendered public/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 7595)
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 8484)
+
+
+Started GET "/" for ::1 at 2022-06-08 15:02:57 +0100
+Processing by PublicController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/index.html.erb within layouts/application
+  Rendered public/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 6849)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 7141)
+
+
+Started GET "/" for ::1 at 2022-06-08 15:02:57 +0100
+Processing by PublicController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/index.html.erb within layouts/application
+  Rendered public/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 6847)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 7114)
+
+
+Started GET "/" for ::1 at 2022-06-08 15:02:58 +0100
+Processing by PublicController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/index.html.erb within layouts/application
+  Rendered public/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 6855)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 7122)
+
+
+Started GET "/" for ::1 at 2022-06-08 15:03:12 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PublicController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/index.html.erb within layouts/application
+  Rendered public/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 344)
+  Rendered layout layouts/application.html.erb (Duration: 26.1ms | Allocations: 52818)
+Completed 200 OK in 30ms (Views: 27.4ms | ActiveRecord: 0.0ms | Allocations: 56121)
+
+
+Started GET "/" for ::1 at 2022-06-08 15:03:13 +0100
+Processing by PublicController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/index.html.erb within layouts/application
+  Rendered public/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 7017)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 7350)
+
+
+Started GET "/" for ::1 at 2022-06-08 15:04:18 +0100
+Processing by PublicController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/index.html.erb within layouts/application
+  Rendered public/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 6832)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 7102)
+
+
+Started GET "/" for ::1 at 2022-06-08 15:04:24 +0100
+Processing by PublicController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/index.html.erb within layouts/application
+  Rendered public/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 6831)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 7097)
+
+
+Started GET "/" for ::1 at 2022-06-08 15:05:20 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PublicController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/index.html.erb within layouts/application
+  Rendered public/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 345)
+  Rendered layout layouts/application.html.erb (Duration: 26.0ms | Allocations: 52578)
+Completed 200 OK in 30ms (Views: 27.3ms | ActiveRecord: 0.0ms | Allocations: 55881)
+
+
+Started GET "/" for ::1 at 2022-06-08 15:06:36 +0100
+Processing by PublicController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/index.html.erb within layouts/application
+  Rendered public/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 40.3ms | Allocations: 23509)
+Completed 200 OK in 46ms (Views: 43.7ms | ActiveRecord: 0.0ms | Allocations: 24396)
+
+
+Started GET "/" for ::1 at 2022-06-08 15:06:37 +0100
+Processing by PublicController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/index.html.erb within layouts/application
+  Rendered public/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 6835)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 7127)
+
+
+Started GET "/" for ::1 at 2022-06-08 15:06:37 +0100
+Processing by PublicController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/index.html.erb within layouts/application
+  Rendered public/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 7032)
+Completed 200 OK in 32ms (Views: 31.8ms | ActiveRecord: 0.0ms | Allocations: 7299)
+
+
+Started GET "/" for ::1 at 2022-06-08 15:06:46 +0100
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PublicController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/index.html.erb within layouts/application
+  Rendered public/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 345)
+  Rendered layout layouts/application.html.erb (Duration: 48.6ms | Allocations: 57852)
+Completed 200 OK in 52ms (Views: 49.9ms | ActiveRecord: 0.0ms | Allocations: 61154)
+
+
+Started GET "/" for ::1 at 2022-06-08 15:06:47 +0100
+Processing by PublicController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/index.html.erb within layouts/application
+  Rendered public/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 7038)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 7371)
+
+
+Started GET "/" for ::1 at 2022-06-08 15:08:37 +0100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PublicController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/index.html.erb within layouts/application
+  Rendered public/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 345)
+  Rendered layout layouts/application.html.erb (Duration: 42.3ms | Allocations: 59399)
+Completed 200 OK in 46ms (Views: 43.5ms | ActiveRecord: 0.0ms | Allocations: 62701)
+
+
+Started GET "/" for ::1 at 2022-06-08 15:09:55 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PublicController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/index.html.erb within layouts/application
+  Rendered public/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 345)
+  Rendered layout layouts/application.html.erb (Duration: 33.0ms | Allocations: 59330)
+Completed 200 OK in 37ms (Views: 34.3ms | ActiveRecord: 0.0ms | Allocations: 62632)
+
+
+Started GET "/" for ::1 at 2022-06-08 15:10:59 +0100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PublicController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/index.html.erb within layouts/application
+  Rendered public/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 345)
+  Rendered layout layouts/application.html.erb (Duration: 49.5ms | Allocations: 59871)
+Completed 200 OK in 53ms (Views: 50.8ms | ActiveRecord: 0.0ms | Allocations: 63173)
+
+
