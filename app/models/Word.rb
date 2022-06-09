@@ -1,3 +1,4 @@
 class Word < ApplicationRecord
-    validates :name, presence: true
+    validates :pokename, presence: true
+    validates :poketype, presence: true
 end

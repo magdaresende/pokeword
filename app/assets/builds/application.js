@@ -26768,8 +26768,8 @@
   // app/javascript/react/src/components/Word.jsx
   var React = __toESM(require_react());
   var ReactDOM = __toESM(require_react_dom());
-  var Word = ({ poke }) => {
-    return /* @__PURE__ */ React.createElement("div", null, poke);
+  var Word = ({ pokename, poketype }) => {
+    return /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", null, pokename), /* @__PURE__ */ React.createElement("div", null, poketype));
   };
   var Word_default = Word;
 

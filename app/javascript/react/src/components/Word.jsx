@@ -1,8 +1,13 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-const Word = ({ poke }) => {
-  return <div>{poke}</div>;
+const Word = ({ pokename, poketype }) => {
+  return (
+    <div>
+      <div>{pokename}</div>
+      <div>{poketype}</div>
+    </div>
+  );
 };
 
 export default Word;
