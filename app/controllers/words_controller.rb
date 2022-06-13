@@ -21,7 +21,11 @@ class WordsController < ApplicationController
         type_arr.each do |n|
             poketype << n["type"]["name"]
         end
-        poketype
+        if poketype.size > 1
+            poketype.join(",")
+        else
+            poketype[0]
+        end
     end
 
     def refresh

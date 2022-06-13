@@ -26774,7 +26774,9 @@
   var Word_default = Word;
 
   // app/javascript/react/src/index.js
-  define({ "word-component": Word_default });
+  define({
+    "word-component": { component: Word_default, attributes: ["pokename", "poketype"] }
+  });
 })();
 /**
  * @license React
