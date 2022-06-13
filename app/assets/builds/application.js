@@ -26771,10 +26771,12 @@
     const [currentWord, setCurrentWord] = (0, import_react2.useState)("");
     const [answer, setAnswer] = (0, import_react2.useState)(false);
     const [showAnswer, setShowAnswer] = (0, import_react2.useState)(false);
+    const [attempts, setAttempts] = (0, import_react2.useState)([]);
     const handleSubmit = (evt) => {
       evt.preventDefault();
       setAnswer(currentWord == pokename);
       setShowAnswer(true);
+      setAttempts([...attempts, currentWord]);
     };
     const handleChange = (e) => {
       setCurrentWord(e);
@@ -26795,10 +26797,19 @@
       value: "Submit"
     })), showAnswer != "" && /* @__PURE__ */ import_react2.default.createElement(Answer, {
       correct: answer
+    }), attempts.length > 0 && /* @__PURE__ */ import_react2.default.createElement(Attempts, {
+      previousAttempts: attempts
     }));
   };
   var Answer = ({ correct }) => {
     return /* @__PURE__ */ import_react2.default.createElement("div", null, correct ? "Correct!" : "Wrong!");
+  };
+  var Attempts = ({ previousAttempts }) => {
+    return /* @__PURE__ */ import_react2.default.createElement("div", null, /* @__PURE__ */ import_react2.default.createElement("div", null, "Previous Attempts:"), previousAttempts.map((attempts) => {
+      return /* @__PURE__ */ import_react2.default.createElement("div", {
+        key: attempts
+      }, attempts);
+    }));
   };
   var Word_default = Word;
 
