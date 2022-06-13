@@ -1007,7 +1007,7 @@
             }
             return element;
           };
-          function createElement3(type, config, children) {
+          function createElement2(type, config, children) {
             var propName;
             var props = {};
             var key = null;
@@ -1557,7 +1557,7 @@
             }
             return dispatcher.useContext(Context);
           }
-          function useState(initialState) {
+          function useState2(initialState) {
             var dispatcher = resolveDispatcher();
             return dispatcher.useState(initialState);
           }
@@ -2080,7 +2080,7 @@
                 error("React.createElement: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s", typeString, info);
               }
             }
-            var element = createElement3.apply(this, arguments);
+            var element = createElement2.apply(this, arguments);
             if (element == null) {
               return element;
             }
@@ -2357,7 +2357,7 @@
           exports.useMemo = useMemo;
           exports.useReducer = useReducer;
           exports.useRef = useRef;
-          exports.useState = useState;
+          exports.useState = useState2;
           exports.useSyncExternalStore = useSyncExternalStore;
           exports.useTransition = useTransition;
           exports.version = ReactVersion;
@@ -9385,7 +9385,7 @@
               }
             }
           }
-          function createElement3(type, props, rootContainerElement, parentNamespace) {
+          function createElement2(type, props, rootContainerElement, parentNamespace) {
             var isCustomComponentTag;
             var ownerDocument = getOwnerDocumentFromRootContainer(rootContainerElement);
             var domElement;
@@ -10237,7 +10237,7 @@
               }
               parentNamespace = hostContextDev.namespace;
             }
-            var domElement = createElement3(type, props, rootContainerInstance, parentNamespace);
+            var domElement = createElement2(type, props, rootContainerInstance, parentNamespace);
             precacheFiberNode(internalInstanceHandle, domElement);
             updateFiberProps(domElement, props);
             return domElement;
@@ -26766,16 +26766,45 @@
   }
 
   // app/javascript/react/src/components/Word.jsx
-  var React = __toESM(require_react());
-  var ReactDOM = __toESM(require_react_dom());
-  var Word = ({ pokename, poketype }) => {
-    return /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", null, pokename), /* @__PURE__ */ React.createElement("div", null, poketype));
+  var import_react2 = __toESM(require_react());
+  var Word = ({ pokename, poketypes }) => {
+    const [currentWord, setCurrentWord] = (0, import_react2.useState)("");
+    const [answer, setAnswer] = (0, import_react2.useState)(false);
+    const [showAnswer, setShowAnswer] = (0, import_react2.useState)(false);
+    const handleSubmit = (evt) => {
+      evt.preventDefault();
+      setAnswer(currentWord == pokename);
+      setShowAnswer(true);
+    };
+    const handleChange = (e) => {
+      setCurrentWord(e);
+      setShowAnswer(false);
+    };
+    return /* @__PURE__ */ import_react2.default.createElement("div", null, /* @__PURE__ */ import_react2.default.createElement("div", null, "Types:"), poketypes.split(",").map((poketype) => {
+      return /* @__PURE__ */ import_react2.default.createElement("div", {
+        key: poketype
+      }, poketype);
+    }), /* @__PURE__ */ import_react2.default.createElement("div", null, pokename.length, " letters"), /* @__PURE__ */ import_react2.default.createElement("form", {
+      onSubmit: handleSubmit
+    }, /* @__PURE__ */ import_react2.default.createElement("label", null, "Pokemon name:", /* @__PURE__ */ import_react2.default.createElement("input", {
+      type: "text",
+      value: currentWord,
+      onChange: (e) => handleChange(e.target.value)
+    })), /* @__PURE__ */ import_react2.default.createElement("input", {
+      type: "submit",
+      value: "Submit"
+    })), showAnswer != "" && /* @__PURE__ */ import_react2.default.createElement(Answer, {
+      correct: answer
+    }));
+  };
+  var Answer = ({ correct }) => {
+    return /* @__PURE__ */ import_react2.default.createElement("div", null, correct ? "Correct!" : "Wrong!");
   };
   var Word_default = Word;
 
   // app/javascript/react/src/index.js
   define({
-    "word-component": { component: Word_default, attributes: ["pokename", "poketype"] }
+    "word-component": { component: Word_default, attributes: ["pokename", "poketypes"] }
   });
 })();
 /**
