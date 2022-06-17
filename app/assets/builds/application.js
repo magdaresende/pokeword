@@ -26770,17 +26770,26 @@
   var Word = ({ pokename, poketypes }) => {
     const [currentWord, setCurrentWord] = (0, import_react2.useState)("");
     const [answer, setAnswer] = (0, import_react2.useState)(false);
+    const [error, setError] = (0, import_react2.useState)(false);
     const [showAnswer, setShowAnswer] = (0, import_react2.useState)(false);
     const [attempts, setAttempts] = (0, import_react2.useState)([]);
     const handleSubmit = (evt) => {
       evt.preventDefault();
-      setAnswer(currentWord == pokename);
-      setShowAnswer(true);
-      setAttempts([...attempts, currentWord]);
+      if (handleValidation()) {
+        setAnswer(currentWord == pokename);
+        setAttempts([...attempts, currentWord]);
+        setShowAnswer(true);
+      } else {
+        setError(true);
+      }
+    };
+    const handleValidation = () => {
+      return pokename.length == currentWord.length;
     };
     const handleChange = (e) => {
       setCurrentWord(e);
       setShowAnswer(false);
+      setError(false);
     };
     return /* @__PURE__ */ import_react2.default.createElement("div", null, /* @__PURE__ */ import_react2.default.createElement("div", null, "Types:"), poketypes.split(",").map((poketype) => {
       return /* @__PURE__ */ import_react2.default.createElement("div", {
@@ -26795,8 +26804,14 @@
     })), /* @__PURE__ */ import_react2.default.createElement("input", {
       type: "submit",
       value: "Submit"
-    })), showAnswer != "" && /* @__PURE__ */ import_react2.default.createElement(Answer, {
+    })), /* @__PURE__ */ import_react2.default.createElement(Error2, {
+      error,
+      len: pokename.length
+    }), showAnswer != "" && /* @__PURE__ */ import_react2.default.createElement(Answer, {
       correct: answer
+    }) && /* @__PURE__ */ import_react2.default.createElement(Verify, {
+      currentWord,
+      pokename
     }), attempts.length > 0 && /* @__PURE__ */ import_react2.default.createElement(Attempts, {
       previousAttempts: attempts
     }));
@@ -26804,11 +26819,31 @@
   var Answer = ({ correct }) => {
     return /* @__PURE__ */ import_react2.default.createElement("div", null, correct ? "Correct!" : "Wrong!");
   };
+  var Error2 = ({ error, len }) => {
+    return /* @__PURE__ */ import_react2.default.createElement("div", null, error && `Wrong number of letters, should be: ${len}`);
+  };
   var Attempts = ({ previousAttempts }) => {
     return /* @__PURE__ */ import_react2.default.createElement("div", null, /* @__PURE__ */ import_react2.default.createElement("div", null, "Previous Attempts:"), previousAttempts.map((attempts) => {
       return /* @__PURE__ */ import_react2.default.createElement("div", {
         key: attempts
       }, attempts);
+    }));
+  };
+  var Verify = ({ currentWord, pokename }) => {
+    return /* @__PURE__ */ import_react2.default.createElement("div", null, /* @__PURE__ */ import_react2.default.createElement("div", null, "What you need to know:"), currentWord.split("").map((currentLetter, index) => {
+      if (currentLetter == pokename[index]) {
+        return /* @__PURE__ */ import_react2.default.createElement("div", {
+          key: index
+        }, currentLetter, " in the index ", index, " is correct!");
+      } else if (pokename.indexOf(currentLetter) > -1) {
+        return /* @__PURE__ */ import_react2.default.createElement("div", {
+          key: index
+        }, currentLetter, " in the index ", index, " is not correct but it exists in the word elsewhere!");
+      } else {
+        return /* @__PURE__ */ import_react2.default.createElement("div", {
+          key: index
+        }, currentLetter, " doesn't belong in this word.");
+      }
     }));
   };
   var Word_default = Word;
