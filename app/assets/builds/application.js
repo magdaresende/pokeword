@@ -26773,6 +26773,7 @@
     const [error, setError] = (0, import_react2.useState)(false);
     const [showAnswer, setShowAnswer] = (0, import_react2.useState)(false);
     const [attempts, setAttempts] = (0, import_react2.useState)([]);
+    const [showType, setShowType] = (0, import_react2.useState)(false);
     const handleSubmit = (evt) => {
       evt.preventDefault();
       if (handleValidation()) {
@@ -26791,10 +26792,11 @@
       setShowAnswer(false);
       setError(false);
     };
-    return /* @__PURE__ */ import_react2.default.createElement("div", null, /* @__PURE__ */ import_react2.default.createElement("div", null, "Types:"), poketypes.split(",").map((poketype) => {
-      return /* @__PURE__ */ import_react2.default.createElement("div", {
-        key: poketype
-      }, poketype);
+    return /* @__PURE__ */ import_react2.default.createElement("div", null, /* @__PURE__ */ import_react2.default.createElement(TypeButton, {
+      showType,
+      setShowType
+    }), showType && /* @__PURE__ */ import_react2.default.createElement(ShowTypes, {
+      poketypes
     }), /* @__PURE__ */ import_react2.default.createElement("div", null, pokename.length, " letters"), /* @__PURE__ */ import_react2.default.createElement("form", {
       onSubmit: handleSubmit
     }, /* @__PURE__ */ import_react2.default.createElement("label", null, "Pokemon name:", /* @__PURE__ */ import_react2.default.createElement("input", {
@@ -26822,6 +26824,13 @@
   var Error2 = ({ error, len }) => {
     return /* @__PURE__ */ import_react2.default.createElement("div", null, error && `Wrong number of letters, should be: ${len}`);
   };
+  var ShowTypes = ({ poketypes }) => {
+    return /* @__PURE__ */ import_react2.default.createElement("div", null, /* @__PURE__ */ import_react2.default.createElement("div", null, "Types:"), poketypes.split(",").map((poketype) => {
+      return /* @__PURE__ */ import_react2.default.createElement("div", {
+        key: poketype
+      }, poketype);
+    }));
+  };
   var Attempts = ({ previousAttempts }) => {
     return /* @__PURE__ */ import_react2.default.createElement("div", null, /* @__PURE__ */ import_react2.default.createElement("div", null, "Previous Attempts:"), previousAttempts.map((attempts) => {
       return /* @__PURE__ */ import_react2.default.createElement("div", {
@@ -26845,6 +26854,11 @@
         }, currentLetter, " doesn't belong in this word.");
       }
     }));
+  };
+  var TypeButton = ({ showType, setShowType }) => {
+    return /* @__PURE__ */ import_react2.default.createElement("button", {
+      onClick: (_) => setShowType(!showType)
+    }, showType ? "Hide!!!" : "Show pokemon type");
   };
   var Word_default = Word;
 

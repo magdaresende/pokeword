@@ -6,6 +6,7 @@ const Word = ({ pokename, poketypes }) => {
   const [error, setError] = useState(false);
   const [showAnswer, setShowAnswer] = useState(false);
   const [attempts, setAttempts] = useState([]);
+  const [showType, setShowType] = useState(false);
 
   const handleSubmit = (evt) => {
     evt.preventDefault();
@@ -30,11 +31,8 @@ const Word = ({ pokename, poketypes }) => {
 
   return (
     <div>
-      {/* <div>{pokename}</div> */}
-      <div>Types:</div>
-      {poketypes.split(",").map((poketype) => {
-        return <div key={poketype}>{poketype}</div>;
-      })}
+      <TypeButton showType={showType} setShowType={setShowType} />
+      {showType && <ShowTypes poketypes={poketypes} />}
       <div>{pokename.length} letters</div>
       <form onSubmit={handleSubmit}>
         <label>
@@ -62,6 +60,17 @@ const Answer = ({ correct }) => {
 
 const Error = ({ error, len }) => {
   return <div>{error && `Wrong number of letters, should be: ${len}`}</div>;
+};
+
+const ShowTypes = ({ poketypes }) => {
+  return (
+    <div>
+      <div>Types:</div>
+      {poketypes.split(",").map((poketype) => {
+        return <div key={poketype}>{poketype}</div>;
+      })}
+    </div>
+  );
 };
 
 const Attempts = ({ previousAttempts }) => {
@@ -100,6 +109,14 @@ const Verify = ({ currentWord, pokename }) => {
         }
       })}
     </div>
+  );
+};
+
+const TypeButton = ({ showType, setShowType }) => {
+  return (
+    <button onClick={(_) => setShowType(!showType)}>
+      {showType ? "Hide!!!" : "Show pokemon type"}
+    </button>
   );
 };
 
