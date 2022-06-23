@@ -18,6 +18,13 @@ body {
   font-weight: 800;
   margin: auto;
 }
+.confetti {
+  margin: auto;
+}
+.correct {
+  margin: auto;
+  font-weight: 700;
+}
 .gameArea {
   display: flex;
   flex-direction: column;
@@ -33,6 +40,13 @@ body {
   flex-direction: column;
   margin: auto;
   justify-content: space-around;
+}
+.types {
+  display: flex;
+}
+.attempt {
+  font-weight: 700;
+  font-size: 18px;
 }
 .input {
   font-size: 16px;
@@ -62,10 +76,10 @@ body {
   color: #ff3c33;
 }
 .yellow {
-  color: #ffd733;
+  color: #ffcc00;
 }
 .green {
-  color: #33ff8d;
+  color: #00cc99;
 }
 .pink {
   color: #ea4c89;

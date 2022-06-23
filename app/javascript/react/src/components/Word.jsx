@@ -1,11 +1,27 @@
 import React, { useState } from "react";
+import Confetti from "react-dom-confetti";
 import "./Word.css";
+
+const confettiConfig = {
+  angle: "136",
+  spread: "291",
+  startVelocity: "79",
+  elementCount: "98",
+  dragFriction: "0.23",
+  duration: "4340",
+  stagger: "11",
+  width: "9px",
+  height: "10px",
+  perspective: "372px",
+  colors: ["#ff99ff", "#80b3ff", "#ffb3b3", "#ff0066", "#00cc99"],
+};
 
 const Word = ({ pokename, poketypes }) => {
   const [currentWord, setCurrentWord] = useState("");
   const [error, setError] = useState(false);
   const [attempts, setAttempts] = useState([]);
   const [showType, setShowType] = useState(false);
+  const [showConfetti, setShowConfetti] = useState(false);
 
   const handleSubmit = (evt) => {
     evt.preventDefault();
@@ -13,6 +29,9 @@ const Word = ({ pokename, poketypes }) => {
       setAttempts([...attempts, currentWord.toLowerCase()]);
     } else {
       setError(true);
+    }
+    if (pokename == currentWord.toLowerCase()) {
+      setShowConfetti(true);
     }
   };
 
@@ -42,8 +61,13 @@ const Word = ({ pokename, poketypes }) => {
           <input type="submit" value="Submit" className="button" />
         </form>
         <Error error={error} len={pokename.length} />
-        <TypeButton showType={showType} setShowType={setShowType} />
-        {showType && <ShowTypes poketypes={poketypes} />}
+        {showConfetti && <ShowCorrect />}
+        <ShowConfetti correct={showConfetti} />
+        <TypeButton
+          showType={showType}
+          setShowType={setShowType}
+          poketypes={poketypes}
+        />
         {attempts.length > 0 && (
           <Attempts previousAttempts={attempts} pokename={pokename} />
         )}
@@ -62,7 +86,8 @@ const Error = ({ error, len }) => {
 
 const ShowTypes = ({ poketypes }) => {
   return (
-    <div>
+    <div className="types">
+      Type:&nbsp;
       {poketypes.split(",").map((poketype) => {
         return <div key={poketype}>{poketype}</div>;
       })}
@@ -75,7 +100,11 @@ const Attempts = ({ previousAttempts, pokename }) => {
     <div>
       <div>Previous Attempts:</div>
       {previousAttempts.map((attempt, index) => {
-        return <div key={index}>{PrintLetters(attempt, pokename)}</div>;
+        return (
+          <div key={index} className="attempt">
+            {PrintLetters(attempt, pokename)}
+          </div>
+        );
       })}
     </div>
   );
@@ -108,10 +137,13 @@ const ReturnColor = (currentLetter, pokename, index) => {
   }
 };
 
-const TypeButton = ({ showType, setShowType }) => {
+const TypeButton = ({ showType, setShowType, poketypes }) => {
   return (
     <div className="hint">
-      <div>Need a hint?</div>
+      <div>
+        {" "}
+        {showType ? <ShowTypes poketypes={poketypes} /> : "Need a hint?"}
+      </div>
       <button
         onClick={(_) => setShowType(!showType)}
         className="hintButton button"
@@ -120,6 +152,18 @@ const TypeButton = ({ showType, setShowType }) => {
       </button>
     </div>
   );
+};
+
+const ShowConfetti = ({ correct }) => {
+  return (
+    <div className="confetti">
+      <Confetti active={correct} config={confettiConfig} />
+    </div>
+  );
+};
+
+const ShowCorrect = () => {
+  return <div className="correct">Correct!!!</div>;
 };
 
 export default Word;

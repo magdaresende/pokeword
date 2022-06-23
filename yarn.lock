@@ -379,6 +379,11 @@
   dependencies:
     "ms" "2.1.2"
 
+"dom-confetti@0.2.2":
+  "integrity" "sha512-+UVH9Y85qmpTnbmFURwLWjqLIykyIrsNSRkPX/eFlBuOURz9RDX8JoZHnajZHyFuCV0w/K3+tZK0ztfoTw6ejg=="
+  "resolved" "https://registry.npmjs.org/dom-confetti/-/dom-confetti-0.2.2.tgz"
+  "version" "0.2.2"
+
 "electron-to-chromium@^1.4.147":
   "integrity" "sha512-8MJk1bcQUAYkuvCyWZxaldiwoDG0E0AMzBGA6cv3WfuvJySiPgfidEPBFCRRH3cZm6SVZwo/oRlK1ehi1QNEIQ=="
   "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.148.tgz"
@@ -477,6 +482,13 @@
   "resolved" "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
   "version" "1.0.0"
 
+"react-dom-confetti@^0.2.0":
+  "integrity" "sha512-+XRTi+WlCrcRN2dTjdEopOaPFtS7hpaHRRQ0sHiVRGqpchKz4QVh3i+6eLEEpNHYpN2VgPmhjvJ/vnjmUYhlIQ=="
+  "resolved" "https://registry.npmjs.org/react-dom-confetti/-/react-dom-confetti-0.2.0.tgz"
+  "version" "0.2.0"
+  dependencies:
+    "dom-confetti" "0.2.2"
+
 "react-dom@^18.1.0", "react-dom@>= 15.0.0":
   "integrity" "sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.1.0.tgz"
@@ -490,7 +502,7 @@
   "resolved" "https://registry.npmjs.org/react-shadow-dom-retarget-events/-/react-shadow-dom-retarget-events-1.1.0.tgz"
   "version" "1.1.0"
 
-"react@^18.1.0", "react@>= 15.0.0":
+"react@*", "react@^18.1.0", "react@>= 15.0.0":
   "integrity" "sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.1.0.tgz"
   "version" "18.1.0"
