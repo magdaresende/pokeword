@@ -27050,15 +27050,6 @@
       className: "error"
     }, error && `Only words with ${len} letters allowed!`, " ");
   };
-  var ShowTypes = ({ poketypes }) => {
-    return /* @__PURE__ */ import_react2.default.createElement("div", {
-      className: "types"
-    }, "Type:\xA0", poketypes.split(",").map((poketype) => {
-      return /* @__PURE__ */ import_react2.default.createElement("div", {
-        key: poketype
-      }, poketype);
-    }));
-  };
   var Attempts = ({ previousAttempts, pokename }) => {
     return /* @__PURE__ */ import_react2.default.createElement("div", null, /* @__PURE__ */ import_react2.default.createElement("div", null, "Previous Attempts:"), previousAttempts.map((attempt, index) => {
       return /* @__PURE__ */ import_react2.default.createElement("div", {
@@ -27093,6 +27084,11 @@
       onClick: (_) => setShowType(!showType),
       className: "hintButton button"
     }, showType ? "Hide type!!!" : "Show pokemon type"));
+  };
+  var ShowTypes = ({ poketypes }) => {
+    return /* @__PURE__ */ import_react2.default.createElement("div", {
+      className: "types"
+    }, poketypes.split(",").length > 1 ? "Types" : "Type", ":\xA0", poketypes.replace(",", ", "));
   };
   var ShowConfetti = ({ correct }) => {
     return /* @__PURE__ */ import_react2.default.createElement("div", {

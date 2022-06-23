@@ -84,17 +84,6 @@ const Error = ({ error, len }) => {
   );
 };
 
-const ShowTypes = ({ poketypes }) => {
-  return (
-    <div className="types">
-      Type:&nbsp;
-      {poketypes.split(",").map((poketype) => {
-        return <div key={poketype}>{poketype}</div>;
-      })}
-    </div>
-  );
-};
-
 const Attempts = ({ previousAttempts, pokename }) => {
   return (
     <div>
@@ -150,6 +139,15 @@ const TypeButton = ({ showType, setShowType, poketypes }) => {
       >
         {showType ? "Hide type!!!" : "Show pokemon type"}
       </button>
+    </div>
+  );
+};
+
+const ShowTypes = ({ poketypes }) => {
+  return (
+    <div className="types">
+      {poketypes.split(",").length > 1 ? "Types" : "Type"}:&nbsp;
+      {poketypes.replace(",", ", ")}
     </div>
   );
 };
