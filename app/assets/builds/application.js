@@ -26777,8 +26777,8 @@
     const handleSubmit = (evt) => {
       evt.preventDefault();
       if (handleValidation()) {
-        setAnswer(currentWord == pokename);
-        setAttempts([...attempts, currentWord]);
+        setAnswer(currentWord.toLowerCase() == pokename);
+        setAttempts([...attempts, currentWord.toLowerCase()]);
         setShowAnswer(true);
       } else {
         setError(true);
@@ -26811,11 +26811,9 @@
       len: pokename.length
     }), showAnswer != "" && /* @__PURE__ */ import_react2.default.createElement(Answer, {
       correct: answer
-    }) && /* @__PURE__ */ import_react2.default.createElement(Verify, {
-      currentWord,
-      pokename
     }), attempts.length > 0 && /* @__PURE__ */ import_react2.default.createElement(Attempts, {
-      previousAttempts: attempts
+      previousAttempts: attempts,
+      pokename
     }));
   };
   var Answer = ({ correct }) => {
@@ -26831,34 +26829,35 @@
       }, poketype);
     }));
   };
-  var Attempts = ({ previousAttempts }) => {
-    return /* @__PURE__ */ import_react2.default.createElement("div", null, /* @__PURE__ */ import_react2.default.createElement("div", null, "Previous Attempts:"), previousAttempts.map((attempts) => {
+  var Attempts = ({ previousAttempts, pokename }) => {
+    return /* @__PURE__ */ import_react2.default.createElement("div", null, /* @__PURE__ */ import_react2.default.createElement("div", null, "Previous Attempts:"), previousAttempts.map((attempt, index) => {
       return /* @__PURE__ */ import_react2.default.createElement("div", {
-        key: attempts
-      }, attempts);
+        key: index
+      }, PrintLetters(attempt, pokename));
     }));
   };
-  var Verify = ({ currentWord, pokename }) => {
-    return /* @__PURE__ */ import_react2.default.createElement("div", null, /* @__PURE__ */ import_react2.default.createElement("div", null, "What you need to know:"), currentWord.split("").map((currentLetter, index) => {
-      if (currentLetter == pokename[index]) {
-        return /* @__PURE__ */ import_react2.default.createElement("div", {
-          key: index
-        }, currentLetter, " in the index ", index, " is correct!");
-      } else if (pokename.indexOf(currentLetter) > -1) {
-        return /* @__PURE__ */ import_react2.default.createElement("div", {
-          key: index
-        }, currentLetter, " in the index ", index, " is not correct but it exists in the word elsewhere!");
-      } else {
-        return /* @__PURE__ */ import_react2.default.createElement("div", {
-          key: index
-        }, currentLetter, " doesn't belong in this word.");
-      }
+  var PrintLetters = (currentWord, pokename) => {
+    return /* @__PURE__ */ import_react2.default.createElement("div", null, currentWord.split("").map((currentLetter, index) => {
+      return /* @__PURE__ */ import_react2.default.createElement("span", {
+        key: index,
+        className: ReturnColor(currentLetter, pokename, index)
+      }, currentLetter);
     }));
+  };
+  var ReturnColor = (currentLetter, pokename, index) => {
+    console.log(pokename);
+    if (currentLetter == pokename[index]) {
+      return "green";
+    } else if (pokename.indexOf(currentLetter) > -1) {
+      return "yellow";
+    } else {
+      return "red";
+    }
   };
   var TypeButton = ({ showType, setShowType }) => {
     return /* @__PURE__ */ import_react2.default.createElement("button", {
       onClick: (_) => setShowType(!showType)
-    }, showType ? "Hide!!!" : "Show pokemon type");
+    }, showType ? "Hide type!!!" : "Show pokemon type");
   };
   var Word_default = Word;
 

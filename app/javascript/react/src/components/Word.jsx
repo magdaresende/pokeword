@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Word.css";
 
 const Word = ({ pokename, poketypes }) => {
   const [currentWord, setCurrentWord] = useState("");
@@ -11,8 +12,8 @@ const Word = ({ pokename, poketypes }) => {
   const handleSubmit = (evt) => {
     evt.preventDefault();
     if (handleValidation()) {
-      setAnswer(currentWord == pokename);
-      setAttempts([...attempts, currentWord]);
+      setAnswer(currentWord.toLowerCase() == pokename);
+      setAttempts([...attempts, currentWord.toLowerCase()]);
       setShowAnswer(true);
     } else {
       setError(true);
@@ -46,10 +47,10 @@ const Word = ({ pokename, poketypes }) => {
         <input type="submit" value="Submit" />
       </form>
       <Error error={error} len={pokename.length} />
-      {showAnswer != "" && <Answer correct={answer} /> && (
-        <Verify currentWord={currentWord} pokename={pokename} />
+      {showAnswer != "" && <Answer correct={answer} />}
+      {attempts.length > 0 && (
+        <Attempts previousAttempts={attempts} pokename={pokename} />
       )}
-      {attempts.length > 0 && <Attempts previousAttempts={attempts} />}
     </div>
   );
 };
@@ -73,49 +74,49 @@ const ShowTypes = ({ poketypes }) => {
   );
 };
 
-const Attempts = ({ previousAttempts }) => {
+const Attempts = ({ previousAttempts, pokename }) => {
   return (
     <div>
       <div>Previous Attempts:</div>
-      {previousAttempts.map((attempts) => {
-        return <div key={attempts}>{attempts}</div>;
+      {previousAttempts.map((attempt, index) => {
+        return <div key={index}>{PrintLetters(attempt, pokename)}</div>;
       })}
     </div>
   );
 };
 
-const Verify = ({ currentWord, pokename }) => {
+const PrintLetters = (currentWord, pokename) => {
   return (
     <div>
-      <div>What you need to know:</div>
       {currentWord.split("").map((currentLetter, index) => {
-        if (currentLetter == pokename[index]) {
-          return (
-            <div key={index}>
-              {currentLetter} in the index {index} is correct!
-            </div>
-          );
-        } else if (pokename.indexOf(currentLetter) > -1) {
-          return (
-            <div key={index}>
-              {currentLetter} in the index {index} is not correct but it exists
-              in the word elsewhere!
-            </div>
-          );
-        } else {
-          return (
-            <div key={index}>{currentLetter} doesn't belong in this word.</div>
-          );
-        }
+        return (
+          <span
+            key={index}
+            className={ReturnColor(currentLetter, pokename, index)}
+          >
+            {currentLetter}
+          </span>
+        );
       })}
     </div>
   );
+};
+
+const ReturnColor = (currentLetter, pokename, index) => {
+  console.log(pokename);
+  if (currentLetter == pokename[index]) {
+    return "green";
+  } else if (pokename.indexOf(currentLetter) > -1) {
+    return "yellow";
+  } else {
+    return "red";
+  }
 };
 
 const TypeButton = ({ showType, setShowType }) => {
   return (
     <button onClick={(_) => setShowType(!showType)}>
-      {showType ? "Hide!!!" : "Show pokemon type"}
+      {showType ? "Hide type!!!" : "Show pokemon type"}
     </button>
   );
 };

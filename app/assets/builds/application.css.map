@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../javascript/react/src/components/Word.css"],
+  "sourcesContent": [".red {\n  color: #ff3c33;\n}\n.yellow {\n  color: #ffd733;\n}\n.green {\n  color: #33ff8d;\n}\n"],
+  "mappings": ";AAAA;AACE;AAAA;AAEF;AACE;AAAA;AAEF;AACE;AAAA;",
+  "names": []
+}
