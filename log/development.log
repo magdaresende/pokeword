@@ -5571,3 +5571,1797 @@ Processing by WordsController#index as HTML
 Completed 200 OK in 242ms (Views: 232.8ms | ActiveRecord: 0.4ms | Allocations: 33366)
 
 
+Started GET "/" for ::1 at 2022-06-23 11:39:17 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 195.4ms | Allocations: 33041)
+Completed 200 OK in 204ms (Views: 196.1ms | ActiveRecord: 0.4ms | Allocations: 34476)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:39:26 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 25.9ms | Allocations: 3129)
+Completed 200 OK in 31ms (Views: 26.6ms | ActiveRecord: 0.3ms | Allocations: 4564)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:39:44 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 37.4ms | Allocations: 3126)
+Completed 200 OK in 49ms (Views: 38.1ms | ActiveRecord: 0.4ms | Allocations: 4561)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:39:57 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 3157)
+Completed 200 OK in 35ms (Views: 28.7ms | ActiveRecord: 0.3ms | Allocations: 4592)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:40:21 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 216.8ms | Allocations: 33051)
+Completed 200 OK in 221ms (Views: 217.2ms | ActiveRecord: 0.2ms | Allocations: 34502)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:41:15 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.5ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 22.4ms | Allocations: 3148)
+Completed 200 OK in 32ms (Views: 23.2ms | ActiveRecord: 0.5ms | Allocations: 4583)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:41:35 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 1911)
+Completed 200 OK in 16ms (Views: 10.0ms | ActiveRecord: 0.4ms | Allocations: 3346)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:41:56 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 3123)
+Completed 200 OK in 31ms (Views: 23.2ms | ActiveRecord: 0.3ms | Allocations: 4558)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:41:57 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 1923)
+Completed 200 OK in 12ms (Views: 6.4ms | ActiveRecord: 0.2ms | Allocations: 3358)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:42:03 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 25.3ms | Allocations: 3135)
+Completed 200 OK in 31ms (Views: 26.0ms | ActiveRecord: 0.3ms | Allocations: 4570)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:42:08 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 24.8ms | Allocations: 3130)
+Completed 200 OK in 32ms (Views: 25.6ms | ActiveRecord: 0.3ms | Allocations: 4565)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:42:36 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.6ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 3120)
+Completed 200 OK in 34ms (Views: 22.3ms | ActiveRecord: 0.7ms | Allocations: 4555)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:42:36 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.1ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 34)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2682)
+Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 0.1ms | Allocations: 4219)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:44:39 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.6ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 3115)
+Completed 200 OK in 38ms (Views: 19.9ms | ActiveRecord: 0.6ms | Allocations: 4550)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:44:59 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.7ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 24.6ms | Allocations: 3123)
+Completed 200 OK in 37ms (Views: 27.8ms | ActiveRecord: 0.7ms | Allocations: 4558)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:47:43 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.7ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 1937)
+Completed 200 OK in 14ms (Views: 5.9ms | ActiveRecord: 0.7ms | Allocations: 3373)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:47:44 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 1920)
+Completed 200 OK in 10ms (Views: 5.6ms | ActiveRecord: 0.2ms | Allocations: 3355)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:48:47 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.8ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 1932)
+Completed 200 OK in 24ms (Views: 13.1ms | ActiveRecord: 0.8ms | Allocations: 3367)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:48:48 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 1920)
+Completed 200 OK in 10ms (Views: 6.0ms | ActiveRecord: 0.2ms | Allocations: 3355)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:48:49 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 1920)
+Completed 200 OK in 11ms (Views: 6.1ms | ActiveRecord: 0.3ms | Allocations: 3355)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:48:49 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 1917)
+Completed 200 OK in 9ms (Views: 6.0ms | ActiveRecord: 0.2ms | Allocations: 3352)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:48:49 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.1ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 1917)
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 0.2ms | Allocations: 3352)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:48:49 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 1917)
+Completed 200 OK in 8ms (Views: 3.9ms | ActiveRecord: 0.2ms | Allocations: 3352)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:49:03 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 394)
+  Rendered layout layouts/application.html.erb (Duration: 67.5ms | Allocations: 30773)
+Completed 200 OK in 76ms (Views: 68.5ms | ActiveRecord: 0.4ms | Allocations: 40711)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:51:18 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 203.2ms | Allocations: 33422)
+Completed 200 OK in 212ms (Views: 204.0ms | ActiveRecord: 0.4ms | Allocations: 35068)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:51:19 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 1911)
+Completed 200 OK in 11ms (Views: 4.9ms | ActiveRecord: 0.2ms | Allocations: 3347)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:52:57 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 3161)
+Completed 200 OK in 30ms (Views: 24.7ms | ActiveRecord: 0.3ms | Allocations: 4596)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:54:33 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (1.9ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 3168)
+Completed 200 OK in 29ms (Views: 21.3ms | ActiveRecord: 1.9ms | Allocations: 4603)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:54:55 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 28.6ms | Allocations: 3172)
+Completed 200 OK in 34ms (Views: 29.4ms | ActiveRecord: 0.3ms | Allocations: 4623)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:55:05 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 32.5ms | Allocations: 3177)
+Completed 200 OK in 39ms (Views: 33.2ms | ActiveRecord: 0.4ms | Allocations: 4612)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:55:26 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 29.2ms | Allocations: 3156)
+Completed 200 OK in 35ms (Views: 30.0ms | ActiveRecord: 0.2ms | Allocations: 4591)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:55:41 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 23.3ms | Allocations: 3168)
+Completed 200 OK in 30ms (Views: 24.0ms | ActiveRecord: 0.2ms | Allocations: 4603)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:55:54 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 25.6ms | Allocations: 3170)
+Completed 200 OK in 32ms (Views: 26.5ms | ActiveRecord: 0.4ms | Allocations: 4621)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:56:12 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.1ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 25.9ms | Allocations: 3183)
+Completed 200 OK in 30ms (Views: 26.6ms | ActiveRecord: 0.1ms | Allocations: 4618)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:56:21 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 1911)
+Completed 200 OK in 12ms (Views: 6.1ms | ActiveRecord: 0.3ms | Allocations: 3346)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:56:30 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.5ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 2010)
+Completed 200 OK in 29ms (Views: 21.1ms | ActiveRecord: 0.5ms | Allocations: 3462)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:56:33 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 1919)
+Completed 200 OK in 47ms (Views: 23.4ms | ActiveRecord: 0.2ms | Allocations: 3355)
+
+
+Started GET "/" for ::1 at 2022-06-23 11:56:42 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 34.5ms | Allocations: 3173)
+Completed 200 OK in 40ms (Views: 35.2ms | ActiveRecord: 0.3ms | Allocations: 4608)
+
+
+Started GET "/" for ::1 at 2022-06-23 12:07:02 +0100
+Processing by WordsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 197.8ms | Allocations: 31904)
+Completed 200 OK in 212ms (Views: 198.4ms | ActiveRecord: 2.6ms | Allocations: 33952)
+
+
+Started GET "/" for ::1 at 2022-06-23 12:07:21 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 36.8ms | Allocations: 3174)
+Completed 200 OK in 45ms (Views: 37.4ms | ActiveRecord: 0.3ms | Allocations: 4609)
+
+
+Started GET "/" for ::1 at 2022-06-23 12:07:31 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.1ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 23.3ms | Allocations: 3184)
+Completed 200 OK in 26ms (Views: 23.7ms | ActiveRecord: 0.1ms | Allocations: 4619)
+
+
+Started GET "/" for ::1 at 2022-06-23 12:07:44 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 26.4ms | Allocations: 3194)
+Completed 200 OK in 34ms (Views: 27.3ms | ActiveRecord: 0.3ms | Allocations: 4629)
+
+
+Started GET "/" for ::1 at 2022-06-23 12:08:14 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 224.0ms | Allocations: 31917)
+Completed 200 OK in 232ms (Views: 224.5ms | ActiveRecord: 0.3ms | Allocations: 33352)
+
+
+Started GET "/" for ::1 at 2022-06-23 12:08:44 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 223.3ms | Allocations: 33077)
+Completed 200 OK in 234ms (Views: 223.8ms | ActiveRecord: 0.2ms | Allocations: 34512)
+
+
+Started GET "/" for ::1 at 2022-06-23 12:09:04 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 26.1ms | Allocations: 3175)
+Completed 200 OK in 31ms (Views: 26.7ms | ActiveRecord: 0.2ms | Allocations: 4610)
+
+
+Started GET "/" for ::1 at 2022-06-23 12:09:12 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 3175)
+Completed 200 OK in 25ms (Views: 21.5ms | ActiveRecord: 0.2ms | Allocations: 4610)
+
+
+Started GET "/" for ::1 at 2022-06-23 12:09:31 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 24.2ms | Allocations: 3179)
+Completed 200 OK in 35ms (Views: 25.1ms | ActiveRecord: 0.3ms | Allocations: 4614)
+
+
+Started GET "/" for ::1 at 2022-06-23 12:09:55 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 3177)
+Completed 200 OK in 31ms (Views: 24.3ms | ActiveRecord: 0.4ms | Allocations: 4612)
+
+
+Started GET "/" for ::1 at 2022-06-23 12:10:06 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 33.5ms | Allocations: 3183)
+Completed 200 OK in 40ms (Views: 34.3ms | ActiveRecord: 0.2ms | Allocations: 4618)
+
+
+Started GET "/" for ::1 at 2022-06-23 12:11:19 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 3179)
+Completed 200 OK in 20ms (Views: 16.4ms | ActiveRecord: 0.2ms | Allocations: 4614)
+
+
+Started GET "/" for ::1 at 2022-06-23 12:11:53 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 3170)
+Completed 200 OK in 27ms (Views: 21.9ms | ActiveRecord: 0.2ms | Allocations: 4605)
+
+
+Started GET "/" for ::1 at 2022-06-23 12:12:28 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 3175)
+Completed 200 OK in 35ms (Views: 28.1ms | ActiveRecord: 0.4ms | Allocations: 4610)
+
+
+Started GET "/" for ::1 at 2022-06-23 12:12:52 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 3188)
+Completed 200 OK in 21ms (Views: 17.3ms | ActiveRecord: 0.2ms | Allocations: 4623)
+
+
+Started GET "/" for ::1 at 2022-06-23 12:13:26 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.7ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 3169)
+Completed 200 OK in 32ms (Views: 24.1ms | ActiveRecord: 0.7ms | Allocations: 4604)
+
+
+Started GET "/" for ::1 at 2022-06-23 12:14:15 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.7ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 232.6ms | Allocations: 33095)
+Completed 200 OK in 246ms (Views: 233.4ms | ActiveRecord: 0.7ms | Allocations: 34530)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:04:17 +0100
+Processing by WordsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 203.1ms | Allocations: 31908)
+Completed 200 OK in 220ms (Views: 203.8ms | ActiveRecord: 2.0ms | Allocations: 33909)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:04:34 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 216.0ms | Allocations: 31914)
+Completed 200 OK in 221ms (Views: 216.6ms | ActiveRecord: 0.2ms | Allocations: 33349)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:04:59 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.5ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 210.1ms | Allocations: 31909)
+Completed 200 OK in 224ms (Views: 210.8ms | ActiveRecord: 0.5ms | Allocations: 33344)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:05:57 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 229.6ms | Allocations: 33110)
+Completed 200 OK in 238ms (Views: 232.6ms | ActiveRecord: 0.3ms | Allocations: 34545)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:05:58 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1917)
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 0.2ms | Allocations: 3353)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:06:20 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 216.9ms | Allocations: 31913)
+Completed 200 OK in 224ms (Views: 217.7ms | ActiveRecord: 0.3ms | Allocations: 33348)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:06:41 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 3172)
+Completed 200 OK in 29ms (Views: 24.8ms | ActiveRecord: 0.3ms | Allocations: 4607)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:07:13 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 252.0ms | Allocations: 33083)
+Completed 200 OK in 260ms (Views: 252.9ms | ActiveRecord: 0.5ms | Allocations: 34518)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:07:36 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 23.6ms | Allocations: 3182)
+Completed 200 OK in 29ms (Views: 24.5ms | ActiveRecord: 0.2ms | Allocations: 4617)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:07:49 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 34.6ms | Allocations: 3184)
+Completed 200 OK in 45ms (Views: 35.6ms | ActiveRecord: 0.4ms | Allocations: 4619)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:07:55 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 25.1ms | Allocations: 3187)
+Completed 200 OK in 31ms (Views: 25.7ms | ActiveRecord: 0.2ms | Allocations: 4622)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:08:00 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 1991)
+Completed 200 OK in 27ms (Views: 23.4ms | ActiveRecord: 0.3ms | Allocations: 3426)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:08:07 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 28.4ms | Allocations: 3198)
+Completed 200 OK in 35ms (Views: 29.7ms | ActiveRecord: 0.3ms | Allocations: 4633)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:08:45 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 1896)
+Completed 200 OK in 8ms (Views: 4.6ms | ActiveRecord: 0.3ms | Allocations: 3332)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:09:01 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 27.9ms | Allocations: 3186)
+Completed 200 OK in 36ms (Views: 28.9ms | ActiveRecord: 0.3ms | Allocations: 4621)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:09:42 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.1ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 3193)
+Completed 200 OK in 24ms (Views: 21.7ms | ActiveRecord: 0.1ms | Allocations: 4628)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:09:49 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 25.7ms | Allocations: 3186)
+Completed 200 OK in 34ms (Views: 26.4ms | ActiveRecord: 0.4ms | Allocations: 4621)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:09:57 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 3176)
+Completed 200 OK in 29ms (Views: 22.6ms | ActiveRecord: 0.3ms | Allocations: 4611)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:10:35 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 207.5ms | Allocations: 33113)
+Completed 200 OK in 215ms (Views: 208.3ms | ActiveRecord: 0.3ms | Allocations: 34548)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:10:48 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 28.9ms | Allocations: 3182)
+Completed 200 OK in 33ms (Views: 29.5ms | ActiveRecord: 0.2ms | Allocations: 4617)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:10:52 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 28.8ms | Allocations: 3188)
+Completed 200 OK in 34ms (Views: 29.6ms | ActiveRecord: 0.2ms | Allocations: 4623)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:11:03 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 31.3ms | Allocations: 3196)
+Completed 200 OK in 45ms (Views: 32.1ms | ActiveRecord: 0.4ms | Allocations: 4631)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:18:25 +0100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 395)
+  Rendered layout layouts/application.html.erb (Duration: 74.6ms | Allocations: 34150)
+Completed 200 OK in 83ms (Views: 75.6ms | ActiveRecord: 0.4ms | Allocations: 44088)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:18:27 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2009)
+Completed 200 OK in 11ms (Views: 5.8ms | ActiveRecord: 0.2ms | Allocations: 3655)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:18:32 +0100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 394)
+  Rendered layout layouts/application.html.erb (Duration: 47.2ms | Allocations: 31182)
+Completed 200 OK in 54ms (Views: 48.1ms | ActiveRecord: 0.2ms | Allocations: 41121)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:19:09 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 210.0ms | Allocations: 32278)
+Completed 200 OK in 218ms (Views: 211.1ms | ActiveRecord: 0.4ms | Allocations: 33924)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:19:37 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.6ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 209.8ms | Allocations: 33128)
+Completed 200 OK in 226ms (Views: 214.9ms | ActiveRecord: 0.6ms | Allocations: 34563)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:20:05 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 2025)
+Completed 200 OK in 24ms (Views: 17.5ms | ActiveRecord: 0.4ms | Allocations: 3476)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:20:20 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.8ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 3200)
+Completed 200 OK in 30ms (Views: 22.6ms | ActiveRecord: 0.9ms | Allocations: 4635)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:21:24 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 197.2ms | Allocations: 33107)
+Completed 200 OK in 204ms (Views: 197.8ms | ActiveRecord: 0.4ms | Allocations: 34542)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:21:25 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 1916)
+Completed 200 OK in 10ms (Views: 5.3ms | ActiveRecord: 0.2ms | Allocations: 3367)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:21:41 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 209.0ms | Allocations: 31902)
+Completed 200 OK in 213ms (Views: 209.4ms | ActiveRecord: 0.2ms | Allocations: 33353)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:22:15 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 35.3ms | Allocations: 3176)
+Completed 200 OK in 44ms (Views: 36.3ms | ActiveRecord: 0.4ms | Allocations: 4611)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:22:40 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 1920)
+Completed 200 OK in 12ms (Views: 5.6ms | ActiveRecord: 0.3ms | Allocations: 3355)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:22:56 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 3183)
+Completed 200 OK in 34ms (Views: 28.0ms | ActiveRecord: 0.3ms | Allocations: 4618)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:23:03 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 41.1ms | Allocations: 3198)
+Completed 200 OK in 45ms (Views: 41.9ms | ActiveRecord: 0.2ms | Allocations: 4633)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:23:08 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 34.4ms | Allocations: 3192)
+Completed 200 OK in 44ms (Views: 34.8ms | ActiveRecord: 0.2ms | Allocations: 4627)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:23:22 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.5ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 33.9ms | Allocations: 3207)
+Completed 200 OK in 43ms (Views: 34.8ms | ActiveRecord: 0.6ms | Allocations: 4642)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:23:28 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 25.3ms | Allocations: 3215)
+Completed 200 OK in 33ms (Views: 25.9ms | ActiveRecord: 0.3ms | Allocations: 4650)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:23:45 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 209.9ms | Allocations: 31897)
+Completed 200 OK in 218ms (Views: 210.6ms | ActiveRecord: 0.4ms | Allocations: 33332)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:23:47 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 1911)
+Completed 200 OK in 10ms (Views: 4.8ms | ActiveRecord: 0.2ms | Allocations: 3347)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:23:58 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.1ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 25.7ms | Allocations: 3211)
+Completed 200 OK in 31ms (Views: 26.2ms | ActiveRecord: 0.3ms | Allocations: 4646)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:24:27 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.5ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 202.2ms | Allocations: 31914)
+Completed 200 OK in 215ms (Views: 203.4ms | ActiveRecord: 0.5ms | Allocations: 33349)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:24:36 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 3188)
+Completed 200 OK in 28ms (Views: 23.7ms | ActiveRecord: 0.3ms | Allocations: 4623)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:25:16 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 26.6ms | Allocations: 3188)
+Completed 200 OK in 37ms (Views: 27.4ms | ActiveRecord: 0.4ms | Allocations: 4623)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:26:40 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 29.8ms | Allocations: 3206)
+Completed 200 OK in 41ms (Views: 30.7ms | ActiveRecord: 0.3ms | Allocations: 4641)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:27:43 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.5ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 29.5ms | Allocations: 3209)
+Completed 200 OK in 37ms (Views: 30.4ms | ActiveRecord: 0.5ms | Allocations: 4644)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:33:50 +0100
+Processing by WordsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 212.8ms | Allocations: 33137)
+Completed 200 OK in 244ms (Views: 213.9ms | ActiveRecord: 4.4ms | Allocations: 35184)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:34:03 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.6ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 209.4ms | Allocations: 31898)
+Completed 200 OK in 218ms (Views: 210.2ms | ActiveRecord: 0.7ms | Allocations: 33333)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:37:18 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (1.4ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 198.7ms | Allocations: 31917)
+Completed 200 OK in 208ms (Views: 199.4ms | ActiveRecord: 1.4ms | Allocations: 33352)
+
+
+Started GET "/warning.png" for ::1 at 2022-06-23 13:37:19 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/warning.png"):
+  
+Started GET "/" for ::1 at 2022-06-23 13:38:45 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.5ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 2088)
+Completed 200 OK in 18ms (Views: 11.8ms | ActiveRecord: 0.6ms | Allocations: 3696)
+
+
+Started GET "/warning.png" for ::1 at 2022-06-23 13:38:46 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/warning.png"):
+  
+Started GET "/" for ::1 at 2022-06-23 13:38:58 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.8ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 1909)
+Completed 200 OK in 34ms (Views: 11.3ms | ActiveRecord: 0.8ms | Allocations: 3344)
+
+
+Started GET "/warning.png" for ::1 at 2022-06-23 13:38:58 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/warning.png"):
+  
+Started GET "/" for ::1 at 2022-06-23 13:39:06 +0100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 394)
+  Rendered layout layouts/application.html.erb (Duration: 102.9ms | Allocations: 35810)
+Completed 200 OK in 111ms (Views: 103.9ms | ActiveRecord: 0.4ms | Allocations: 45748)
+
+
+Started GET "/warning.png" for ::1 at 2022-06-23 13:39:06 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/warning.png"):
+  
+Started GET "/" for ::1 at 2022-06-23 13:39:07 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 2085)
+Completed 200 OK in 11ms (Views: 6.0ms | ActiveRecord: 0.2ms | Allocations: 3716)
+
+
+Started GET "/warning.png" for ::1 at 2022-06-23 13:39:07 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/warning.png"):
+  
+Started GET "/" for ::1 at 2022-06-23 13:39:12 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 1921)
+Completed 200 OK in 10ms (Views: 4.6ms | ActiveRecord: 0.2ms | Allocations: 3373)
+
+
+Started GET "/warning.png" for ::1 at 2022-06-23 13:39:12 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/warning.png"):
+  
+Started GET "/" for ::1 at 2022-06-23 13:39:12 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.1ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1908)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 3343)
+
+
+Started GET "/warning.png" for ::1 at 2022-06-23 13:39:12 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/warning.png"):
+  
+Started GET "/" for ::1 at 2022-06-23 13:39:12 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.1ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 1905)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms | Allocations: 3340)
+
+
+Started GET "/warning.png" for ::1 at 2022-06-23 13:39:12 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/warning.png"):
+  
+Started GET "/" for ::1 at 2022-06-23 13:39:12 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 1896)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms | Allocations: 3333)
+
+
+Started GET "/warning.png" for ::1 at 2022-06-23 13:39:12 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/warning.png"):
+  
+Started GET "/" for ::1 at 2022-06-23 13:39:29 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 1902)
+Completed 200 OK in 15ms (Views: 8.2ms | ActiveRecord: 0.2ms | Allocations: 3350)
+
+
+Started GET "/warning.png" for ::1 at 2022-06-23 13:39:29 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/warning.png"):
+  
+Started GET "/" for ::1 at 2022-06-23 13:39:30 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 1917)
+Completed 200 OK in 11ms (Views: 5.1ms | ActiveRecord: 0.2ms | Allocations: 3367)
+
+
+Started GET "/warning.png" for ::1 at 2022-06-23 13:39:30 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/warning.png"):
+  
+Started GET "/" for ::1 at 2022-06-23 13:39:58 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.1ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 206.9ms | Allocations: 32066)
+Completed 200 OK in 223ms (Views: 207.8ms | ActiveRecord: 0.4ms | Allocations: 33502)
+
+
+Started GET "/warning.png" for ::1 at 2022-06-23 13:39:58 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/warning.png"):
+  
+Started GET "/" for ::1 at 2022-06-23 13:39:59 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 1926)
+Completed 200 OK in 12ms (Views: 7.9ms | ActiveRecord: 0.2ms | Allocations: 3363)
+
+
+Started GET "/warning.png" for ::1 at 2022-06-23 13:39:59 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/warning.png"):
+  
+Started GET "/" for ::1 at 2022-06-23 13:40:30 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 1906)
+Completed 200 OK in 32ms (Views: 19.1ms | ActiveRecord: 0.3ms | Allocations: 3341)
+
+
+Started GET "/warning.png" for ::1 at 2022-06-23 13:40:30 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/warning.png"):
+  
+Started GET "/" for ::1 at 2022-06-23 13:40:42 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 1923)
+Completed 200 OK in 18ms (Views: 10.5ms | ActiveRecord: 0.3ms | Allocations: 3359)
+
+
+Started GET "/warning.png" for ::1 at 2022-06-23 13:40:42 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/warning.png"):
+  
+Started GET "/" for ::1 at 2022-06-23 13:40:43 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (1.5ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 1920)
+Completed 200 OK in 12ms (Views: 5.3ms | ActiveRecord: 1.6ms | Allocations: 3356)
+
+
+Started GET "/warning.png" for ::1 at 2022-06-23 13:40:43 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/warning.png"):
+  
+Started GET "/" for ::1 at 2022-06-23 13:41:38 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 198.9ms | Allocations: 31907)
+Completed 200 OK in 209ms (Views: 199.9ms | ActiveRecord: 0.3ms | Allocations: 33344)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:41:40 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 1914)
+Completed 200 OK in 11ms (Views: 4.8ms | ActiveRecord: 0.3ms | Allocations: 3349)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:41:45 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 225.0ms | Allocations: 31910)
+Completed 200 OK in 234ms (Views: 225.6ms | ActiveRecord: 0.4ms | Allocations: 33346)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:42:00 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (6.5ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 191.5ms | Allocations: 31919)
+Completed 200 OK in 205ms (Views: 192.6ms | ActiveRecord: 6.5ms | Allocations: 33356)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:42:48 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 27.6ms | Allocations: 3207)
+Completed 200 OK in 35ms (Views: 29.2ms | ActiveRecord: 0.3ms | Allocations: 4643)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:42:49 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 1923)
+Completed 200 OK in 8ms (Views: 4.1ms | ActiveRecord: 0.2ms | Allocations: 3358)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:43:21 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 225.6ms | Allocations: 33145)
+Completed 200 OK in 234ms (Views: 226.4ms | ActiveRecord: 0.4ms | Allocations: 34580)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:44:02 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 254.5ms | Allocations: 31910)
+Completed 200 OK in 261ms (Views: 255.3ms | ActiveRecord: 0.3ms | Allocations: 33345)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:44:42 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.6ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 3221)
+Completed 200 OK in 35ms (Views: 28.2ms | ActiveRecord: 0.6ms | Allocations: 4656)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:46:00 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.5ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 220.6ms | Allocations: 33140)
+Completed 200 OK in 228ms (Views: 222.4ms | ActiveRecord: 0.5ms | Allocations: 34575)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:46:45 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.6ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 201.9ms | Allocations: 31921)
+Completed 200 OK in 214ms (Views: 202.6ms | ActiveRecord: 0.6ms | Allocations: 33357)
+
+
+Started GET "/" for ::1 at 2022-06-23 13:47:41 +0100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.6ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  [1m[36mCACHE Word Load (0.0ms)[0m  [1m[34mSELECT "words".* FROM "words" ORDER BY "words"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering words/index.html.erb within layouts/application
+  Rendered words/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 1926)
+Completed 200 OK in 32ms (Views: 11.5ms | ActiveRecord: 0.7ms | Allocations: 3363)
+
+

@@ -3,18 +3,14 @@ import "./Word.css";
 
 const Word = ({ pokename, poketypes }) => {
   const [currentWord, setCurrentWord] = useState("");
-  const [answer, setAnswer] = useState(false);
   const [error, setError] = useState(false);
-  const [showAnswer, setShowAnswer] = useState(false);
   const [attempts, setAttempts] = useState([]);
   const [showType, setShowType] = useState(false);
 
   const handleSubmit = (evt) => {
     evt.preventDefault();
     if (handleValidation()) {
-      setAnswer(currentWord.toLowerCase() == pokename);
       setAttempts([...attempts, currentWord.toLowerCase()]);
-      setShowAnswer(true);
     } else {
       setError(true);
     }
@@ -26,47 +22,47 @@ const Word = ({ pokename, poketypes }) => {
 
   const handleChange = (e) => {
     setCurrentWord(e);
-    setShowAnswer(false);
     setError(false);
   };
 
   return (
-    <div>
-      <TypeButton showType={showType} setShowType={setShowType} />
-      {showType && <ShowTypes poketypes={poketypes} />}
-      <div>{pokename.length} letters</div>
-      <form onSubmit={handleSubmit}>
-        <label>
-          Pokemon name:
+    <div className="wrapper">
+      <div className="title">
+        Pokemon name with <span className="pink">{pokename.length}</span>{" "}
+        letters
+      </div>
+      <div className="gameArea">
+        <form onSubmit={handleSubmit} className="formWrapper">
           <input
             type="text"
             value={currentWord}
             onChange={(e) => handleChange(e.target.value)}
+            className="input"
           />
-        </label>
-        <input type="submit" value="Submit" />
-      </form>
-      <Error error={error} len={pokename.length} />
-      {showAnswer != "" && <Answer correct={answer} />}
-      {attempts.length > 0 && (
-        <Attempts previousAttempts={attempts} pokename={pokename} />
-      )}
+          <input type="submit" value="Submit" className="button" />
+        </form>
+        <Error error={error} len={pokename.length} />
+        <TypeButton showType={showType} setShowType={setShowType} />
+        {showType && <ShowTypes poketypes={poketypes} />}
+        {attempts.length > 0 && (
+          <Attempts previousAttempts={attempts} pokename={pokename} />
+        )}
+      </div>
     </div>
   );
 };
 
-const Answer = ({ correct }) => {
-  return <div>{correct ? "Correct!" : "Wrong!"}</div>;
-};
-
 const Error = ({ error, len }) => {
-  return <div>{error && `Wrong number of letters, should be: ${len}`}</div>;
+  return (
+    <div className="error">
+      {error && `Only words with ${len} letters allowed!`}{" "}
+    </div>
+  );
 };
 
 const ShowTypes = ({ poketypes }) => {
   return (
     <div>
-      <div>Types:</div>
       {poketypes.split(",").map((poketype) => {
         return <div key={poketype}>{poketype}</div>;
       })}
@@ -103,7 +99,6 @@ const PrintLetters = (currentWord, pokename) => {
 };
 
 const ReturnColor = (currentLetter, pokename, index) => {
-  console.log(pokename);
   if (currentLetter == pokename[index]) {
     return "green";
   } else if (pokename.indexOf(currentLetter) > -1) {
@@ -115,9 +110,15 @@ const ReturnColor = (currentLetter, pokename, index) => {
 
 const TypeButton = ({ showType, setShowType }) => {
   return (
-    <button onClick={(_) => setShowType(!showType)}>
-      {showType ? "Hide type!!!" : "Show pokemon type"}
-    </button>
+    <div className="hint">
+      <div>Need a hint?</div>
+      <button
+        onClick={(_) => setShowType(!showType)}
+        className="hintButton button"
+      >
+        {showType ? "Hide type!!!" : "Show pokemon type"}
+      </button>
+    </div>
   );
 };
 

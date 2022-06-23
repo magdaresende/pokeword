@@ -26769,17 +26769,13 @@
   var import_react2 = __toESM(require_react());
   var Word = ({ pokename, poketypes }) => {
     const [currentWord, setCurrentWord] = (0, import_react2.useState)("");
-    const [answer, setAnswer] = (0, import_react2.useState)(false);
     const [error, setError] = (0, import_react2.useState)(false);
-    const [showAnswer, setShowAnswer] = (0, import_react2.useState)(false);
     const [attempts, setAttempts] = (0, import_react2.useState)([]);
     const [showType, setShowType] = (0, import_react2.useState)(false);
     const handleSubmit = (evt) => {
       evt.preventDefault();
       if (handleValidation()) {
-        setAnswer(currentWord.toLowerCase() == pokename);
         setAttempts([...attempts, currentWord.toLowerCase()]);
-        setShowAnswer(true);
       } else {
         setError(true);
       }
@@ -26789,41 +26785,48 @@
     };
     const handleChange = (e) => {
       setCurrentWord(e);
-      setShowAnswer(false);
       setError(false);
     };
-    return /* @__PURE__ */ import_react2.default.createElement("div", null, /* @__PURE__ */ import_react2.default.createElement(TypeButton, {
+    return /* @__PURE__ */ import_react2.default.createElement("div", {
+      className: "wrapper"
+    }, /* @__PURE__ */ import_react2.default.createElement("div", {
+      className: "title"
+    }, "Pokemon name with ", /* @__PURE__ */ import_react2.default.createElement("span", {
+      className: "pink"
+    }, pokename.length), " ", "letters"), /* @__PURE__ */ import_react2.default.createElement("div", {
+      className: "gameArea"
+    }, /* @__PURE__ */ import_react2.default.createElement("form", {
+      onSubmit: handleSubmit,
+      className: "formWrapper"
+    }, /* @__PURE__ */ import_react2.default.createElement("input", {
+      type: "text",
+      value: currentWord,
+      onChange: (e) => handleChange(e.target.value),
+      className: "input"
+    }), /* @__PURE__ */ import_react2.default.createElement("input", {
+      type: "submit",
+      value: "Submit",
+      className: "button"
+    })), /* @__PURE__ */ import_react2.default.createElement(Error2, {
+      error,
+      len: pokename.length
+    }), /* @__PURE__ */ import_react2.default.createElement(TypeButton, {
       showType,
       setShowType
     }), showType && /* @__PURE__ */ import_react2.default.createElement(ShowTypes, {
       poketypes
-    }), /* @__PURE__ */ import_react2.default.createElement("div", null, pokename.length, " letters"), /* @__PURE__ */ import_react2.default.createElement("form", {
-      onSubmit: handleSubmit
-    }, /* @__PURE__ */ import_react2.default.createElement("label", null, "Pokemon name:", /* @__PURE__ */ import_react2.default.createElement("input", {
-      type: "text",
-      value: currentWord,
-      onChange: (e) => handleChange(e.target.value)
-    })), /* @__PURE__ */ import_react2.default.createElement("input", {
-      type: "submit",
-      value: "Submit"
-    })), /* @__PURE__ */ import_react2.default.createElement(Error2, {
-      error,
-      len: pokename.length
-    }), showAnswer != "" && /* @__PURE__ */ import_react2.default.createElement(Answer, {
-      correct: answer
     }), attempts.length > 0 && /* @__PURE__ */ import_react2.default.createElement(Attempts, {
       previousAttempts: attempts,
       pokename
-    }));
-  };
-  var Answer = ({ correct }) => {
-    return /* @__PURE__ */ import_react2.default.createElement("div", null, correct ? "Correct!" : "Wrong!");
+    })));
   };
   var Error2 = ({ error, len }) => {
-    return /* @__PURE__ */ import_react2.default.createElement("div", null, error && `Wrong number of letters, should be: ${len}`);
+    return /* @__PURE__ */ import_react2.default.createElement("div", {
+      className: "error"
+    }, error && `Only words with ${len} letters allowed!`, " ");
   };
   var ShowTypes = ({ poketypes }) => {
-    return /* @__PURE__ */ import_react2.default.createElement("div", null, /* @__PURE__ */ import_react2.default.createElement("div", null, "Types:"), poketypes.split(",").map((poketype) => {
+    return /* @__PURE__ */ import_react2.default.createElement("div", null, poketypes.split(",").map((poketype) => {
       return /* @__PURE__ */ import_react2.default.createElement("div", {
         key: poketype
       }, poketype);
@@ -26845,7 +26848,6 @@
     }));
   };
   var ReturnColor = (currentLetter, pokename, index) => {
-    console.log(pokename);
     if (currentLetter == pokename[index]) {
       return "green";
     } else if (pokename.indexOf(currentLetter) > -1) {
@@ -26855,9 +26857,12 @@
     }
   };
   var TypeButton = ({ showType, setShowType }) => {
-    return /* @__PURE__ */ import_react2.default.createElement("button", {
-      onClick: (_) => setShowType(!showType)
-    }, showType ? "Hide type!!!" : "Show pokemon type");
+    return /* @__PURE__ */ import_react2.default.createElement("div", {
+      className: "hint"
+    }, /* @__PURE__ */ import_react2.default.createElement("div", null, "Need a hint?"), /* @__PURE__ */ import_react2.default.createElement("button", {
+      onClick: (_) => setShowType(!showType),
+      className: "hintButton button"
+    }, showType ? "Hide type!!!" : "Show pokemon type"));
   };
   var Word_default = Word;
 

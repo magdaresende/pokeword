@@ -1,4 +1,63 @@
+@import "https://fonts.googleapis.com/css?family=Rubik:700&display=swap";
+
 /* app/javascript/react/src/components/Word.css */
+body {
+  background-color: #f1fff7;
+  font-size: 16px;
+  font-family: Arial;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  align-content: center;
+  justify-content: center;
+}
+.title {
+  font-size: 18px;
+  font-weight: 800;
+  margin: auto;
+}
+.gameArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid #ea4c89;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 500px;
+}
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: space-around;
+}
+.input {
+  font-size: 16px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.error {
+  margin-top: 10px;
+  display: flex;
+  align-self: center;
+}
+.hint {
+  font-size: 12px;
+  height: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: baseline;
+  margin-top: 50px;
+  align-self: flex-end;
+}
+.hintButton {
+  font-size: 11px !important;
+  width: 150px !important;
+  margin-left: 10px !important;
+}
 .red {
   color: #ff3c33;
 }
@@ -7,5 +66,57 @@
 }
 .green {
   color: #33ff8d;
+}
+.pink {
+  color: #ea4c89;
+}
+.button {
+  font-size: 16px;
+  width: 200px;
+  background-color: #ea4c89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button:hover,
+.button:focus {
+  background-color: #f082ac;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 /*# sourceMappingURL=application.css.map */
