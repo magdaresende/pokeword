@@ -17,6 +17,7 @@ body {
   font-size: 18px;
   font-weight: 800;
   margin: auto;
+  margin-bottom: 10px;
 }
 .confetti {
   margin: auto;
@@ -48,10 +49,16 @@ body {
   font-weight: 700;
   font-size: 18px;
 }
+.counter {
+  margin-left: 6px;
+  font-size: 10px;
+  margin: auto;
+}
 .input {
   font-size: 16px;
   height: 30px;
   margin-bottom: 10px;
+  width: 190px;
 }
 .error {
   margin-top: 10px;
@@ -113,24 +120,5 @@ body {
 .button:hover,
 .button:focus {
   background-color: #f082ac;
-}
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-}
-.tooltip:hover .tooltiptext {
-  visibility: visible;
 }
 /*# sourceMappingURL=application.css.map */

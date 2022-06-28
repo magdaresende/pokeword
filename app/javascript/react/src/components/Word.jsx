@@ -22,6 +22,8 @@ const Word = ({ pokename, poketypes, allPokes }) => {
   const [attempts, setAttempts] = useState([]);
   const [showType, setShowType] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
+  const [counter, setCounter] = useState(0);
+  const [pokeLen, _] = useState(pokename.length);
 
   const handleSubmit = (evt) => {
     evt.preventDefault();
@@ -37,8 +39,8 @@ const Word = ({ pokename, poketypes, allPokes }) => {
   };
 
   const getErrorMessage = () => {
-    if (pokename.length != currentWord.length) {
-      return `Only pokemons with ${pokename.length} letters allowed!`;
+    if (pokeLen != currentWord.length) {
+      return `Only pokemons with ${pokeLen} letters allowed!`;
     } else if (!CurrentWordIsPokemon(currentWord, allPokes)) {
       return "That's not a pokemon and you know it!";
     }
@@ -48,12 +50,16 @@ const Word = ({ pokename, poketypes, allPokes }) => {
   const handleChange = (e) => {
     setCurrentWord(e);
     setError("");
+    setCounter(e.length);
   };
 
   return (
     <div className="wrapper">
       <div className="title">
-        Pokemon name with <span className="pink">{pokename.length}</span>{" "}
+        Pokemon name from 1st gen with{" "}
+        <span className={`${ReturnCounterColor(counter, pokeLen)}`}>
+          {pokeLen}
+        </span>{" "}
         letters
       </div>
       <div className="gameArea">
@@ -108,7 +114,7 @@ const PrintLetters = (currentWord, pokename) => {
         return (
           <span
             key={index}
-            className={ReturnColor(currentLetter, pokename, index)}
+            className={ReturnPokeColor(currentLetter, pokename, index)}
           >
             {currentLetter}
           </span>
@@ -118,11 +124,19 @@ const PrintLetters = (currentWord, pokename) => {
   );
 };
 
-const ReturnColor = (currentLetter, pokename, index) => {
+const ReturnPokeColor = (currentLetter, pokename, index) => {
   if (currentLetter == pokename[index]) {
     return "green";
   } else if (pokename.indexOf(currentLetter) > -1) {
     return "yellow";
+  } else {
+    return "red";
+  }
+};
+
+const ReturnCounterColor = (counter, len) => {
+  if (counter == len) {
+    return "green";
   } else {
     return "red";
   }

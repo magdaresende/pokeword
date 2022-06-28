@@ -26993,6 +26993,8 @@
     const [attempts, setAttempts] = (0, import_react2.useState)([]);
     const [showType, setShowType] = (0, import_react2.useState)(false);
     const [showConfetti, setShowConfetti] = (0, import_react2.useState)(false);
+    const [counter, setCounter] = (0, import_react2.useState)(0);
+    const [pokeLen, _] = (0, import_react2.useState)(pokename.length);
     const handleSubmit = (evt) => {
       evt.preventDefault();
       errorMessage = getErrorMessage();
@@ -27006,8 +27008,8 @@
       }
     };
     const getErrorMessage = () => {
-      if (pokename.length != currentWord.length) {
-        return `Only pokemons with ${pokename.length} letters allowed!`;
+      if (pokeLen != currentWord.length) {
+        return `Only pokemons with ${pokeLen} letters allowed!`;
       } else if (!CurrentWordIsPokemon(currentWord, allPokes)) {
         return "That's not a pokemon and you know it!";
       }
@@ -27016,14 +27018,15 @@
     const handleChange = (e) => {
       setCurrentWord(e);
       setError("");
+      setCounter(e.length);
     };
     return /* @__PURE__ */ import_react2.default.createElement("div", {
       className: "wrapper"
     }, /* @__PURE__ */ import_react2.default.createElement("div", {
       className: "title"
-    }, "Pokemon name with ", /* @__PURE__ */ import_react2.default.createElement("span", {
-      className: "pink"
-    }, pokename.length), " ", "letters"), /* @__PURE__ */ import_react2.default.createElement("div", {
+    }, "Pokemon name from 1st gen with", " ", /* @__PURE__ */ import_react2.default.createElement("span", {
+      className: `${ReturnCounterColor(counter, pokeLen)}`
+    }, pokeLen), " ", "letters"), /* @__PURE__ */ import_react2.default.createElement("div", {
       className: "gameArea"
     }, /* @__PURE__ */ import_react2.default.createElement("form", {
       onSubmit: handleSubmit,
@@ -27067,15 +27070,22 @@
     return /* @__PURE__ */ import_react2.default.createElement("div", null, currentWord.split("").map((currentLetter, index) => {
       return /* @__PURE__ */ import_react2.default.createElement("span", {
         key: index,
-        className: ReturnColor(currentLetter, pokename, index)
+        className: ReturnPokeColor(currentLetter, pokename, index)
       }, currentLetter);
     }));
   };
-  var ReturnColor = (currentLetter, pokename, index) => {
+  var ReturnPokeColor = (currentLetter, pokename, index) => {
     if (currentLetter == pokename[index]) {
       return "green";
     } else if (pokename.indexOf(currentLetter) > -1) {
       return "yellow";
+    } else {
+      return "red";
+    }
+  };
+  var ReturnCounterColor = (counter, len) => {
+    if (counter == len) {
+      return "green";
     } else {
       return "red";
     }

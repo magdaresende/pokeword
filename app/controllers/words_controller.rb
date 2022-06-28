@@ -39,7 +39,7 @@ class WordsController < ApplicationController
     def refresh
         poke = generate_pokemon
         last_20 = Word.last(20).pluck(:name)
-        while last_20.include?(poke[:name])
+        while last_20.include?(poke[:name]) || !poke[:name].index( /[^[:alnum:]]/ ).nil?
             poke = generate_pokemon
         end
         new_pokemon = Word.new(pokename: poke[:name], poketype: poke[:type])
