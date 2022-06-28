@@ -54,37 +54,42 @@ const Word = ({ pokename, poketypes, allPokes }) => {
   };
 
   return (
-    <div className="wrapper">
-      <div className="title">
-        Pokemon name from 1st gen with{" "}
-        <span className={`${ReturnCounterColor(counter, pokeLen)}`}>
-          {pokeLen}
-        </span>{" "}
-        letters
-      </div>
-      <div className="gameArea">
-        <form onSubmit={handleSubmit} className="formWrapper">
-          <input
-            type="text"
-            value={currentWord}
-            onChange={(e) => handleChange(e.target.value)}
-            className="input"
+    <>
+      <div className="wrapper">
+        <div className="title">
+          Pokemon name with{" "}
+          <span className={`${ReturnCounterColor(counter, pokeLen)}`}>
+            {pokeLen}
+          </span>{" "}
+          letters
+        </div>
+        <div className="gameArea">
+          <form onSubmit={handleSubmit} className="formWrapper">
+            <input
+              type="text"
+              value={currentWord}
+              onChange={(e) => handleChange(e.target.value)}
+              className="input"
+            />
+            <input type="submit" value="Submit" className="button" />
+          </form>
+          <Error error={error} />
+          {showConfetti && <ShowCorrect />}
+          <ShowConfetti correct={showConfetti} />
+          <TypeButton
+            showType={showType}
+            setShowType={setShowType}
+            poketypes={poketypes}
           />
-          <input type="submit" value="Submit" className="button" />
-        </form>
-        <Error error={error} />
-        {showConfetti && <ShowCorrect />}
-        <ShowConfetti correct={showConfetti} />
-        <TypeButton
-          showType={showType}
-          setShowType={setShowType}
-          poketypes={poketypes}
-        />
-        {attempts.length > 0 && (
-          <Attempts previousAttempts={attempts} pokename={pokename} />
-        )}
+          {attempts.length > 0 && (
+            <Attempts previousAttempts={attempts} pokename={pokename} />
+          )}
+        </div>
       </div>
-    </div>
+      <div className="image">
+        <img src="https://forum.pt/images/pokemon.jpg" alt="poke" />
+      </div>
+    </>
   );
 };
 

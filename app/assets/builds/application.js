@@ -27020,11 +27020,11 @@
       setError("");
       setCounter(e.length);
     };
-    return /* @__PURE__ */ import_react2.default.createElement("div", {
+    return /* @__PURE__ */ import_react2.default.createElement(import_react2.default.Fragment, null, /* @__PURE__ */ import_react2.default.createElement("div", {
       className: "wrapper"
     }, /* @__PURE__ */ import_react2.default.createElement("div", {
       className: "title"
-    }, "Pokemon name from 1st gen with", " ", /* @__PURE__ */ import_react2.default.createElement("span", {
+    }, "Pokemon name with", " ", /* @__PURE__ */ import_react2.default.createElement("span", {
       className: `${ReturnCounterColor(counter, pokeLen)}`
     }, pokeLen), " ", "letters"), /* @__PURE__ */ import_react2.default.createElement("div", {
       className: "gameArea"
@@ -27051,6 +27051,11 @@
     }), attempts.length > 0 && /* @__PURE__ */ import_react2.default.createElement(Attempts, {
       previousAttempts: attempts,
       pokename
+    }))), /* @__PURE__ */ import_react2.default.createElement("div", {
+      className: "image"
+    }, /* @__PURE__ */ import_react2.default.createElement("img", {
+      src: "https://forum.pt/images/pokemon.jpg",
+      alt: "poke"
     })));
   };
   var Error2 = ({ error }) => {

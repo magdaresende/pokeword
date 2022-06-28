@@ -2,7 +2,7 @@
 
 /* app/javascript/react/src/components/Word.css */
 body {
-  background-color: #f0f5f5;
+  background-color: #ffffff;
   font-size: 16px;
   font-family: Arial;
 }
@@ -120,5 +120,10 @@ body {
 .button:hover,
 .button:focus {
   background-color: #f082ac;
+}
+.image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 /*# sourceMappingURL=application.css.map */
