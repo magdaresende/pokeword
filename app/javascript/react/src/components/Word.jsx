@@ -16,32 +16,38 @@ const confettiConfig = {
   colors: ["#ff99ff", "#80b3ff", "#ffb3b3", "#ff0066", "#00cc99"],
 };
 
-const Word = ({ pokename, poketypes }) => {
+const Word = ({ pokename, poketypes, allPokes }) => {
   const [currentWord, setCurrentWord] = useState("");
-  const [error, setError] = useState(false);
+  const [error, setError] = useState("");
   const [attempts, setAttempts] = useState([]);
   const [showType, setShowType] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
 
   const handleSubmit = (evt) => {
     evt.preventDefault();
-    if (handleValidation()) {
+    errorMessage = getErrorMessage();
+    if (errorMessage == "") {
       setAttempts([...attempts, currentWord.toLowerCase()]);
     } else {
-      setError(true);
+      setError(errorMessage);
     }
     if (pokename == currentWord.toLowerCase()) {
       setShowConfetti(true);
     }
   };
 
-  const handleValidation = () => {
-    return pokename.length == currentWord.length;
+  const getErrorMessage = () => {
+    if (pokename.length != currentWord.length) {
+      return `Only pokemons with ${pokename.length} letters allowed!`;
+    } else if (!CurrentWordIsPokemon(currentWord, allPokes)) {
+      return "That's not a pokemon and you know it!";
+    }
+    return "";
   };
 
   const handleChange = (e) => {
     setCurrentWord(e);
-    setError(false);
+    setError("");
   };
 
   return (
@@ -60,7 +66,7 @@ const Word = ({ pokename, poketypes }) => {
           />
           <input type="submit" value="Submit" className="button" />
         </form>
-        <Error error={error} len={pokename.length} />
+        <Error error={error} />
         {showConfetti && <ShowCorrect />}
         <ShowConfetti correct={showConfetti} />
         <TypeButton
@@ -76,12 +82,8 @@ const Word = ({ pokename, poketypes }) => {
   );
 };
 
-const Error = ({ error, len }) => {
-  return (
-    <div className="error">
-      {error && `Only words with ${len} letters allowed!`}{" "}
-    </div>
-  );
+const Error = ({ error }) => {
+  return <div className="error">{error != "" && error} </div>;
 };
 
 const Attempts = ({ previousAttempts, pokename }) => {
@@ -124,6 +126,11 @@ const ReturnColor = (currentLetter, pokename, index) => {
   } else {
     return "red";
   }
+};
+
+const CurrentWordIsPokemon = (currentWord, allPokes) => {
+  pokeArray = allPokes.split(",");
+  return pokeArray.indexOf(currentWord) > -1;
 };
 
 const TypeButton = ({ showType, setShowType, poketypes }) => {

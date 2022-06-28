@@ -26987,29 +26987,35 @@
     perspective: "372px",
     colors: ["#ff99ff", "#80b3ff", "#ffb3b3", "#ff0066", "#00cc99"]
   };
-  var Word = ({ pokename, poketypes }) => {
+  var Word = ({ pokename, poketypes, allPokes }) => {
     const [currentWord, setCurrentWord] = (0, import_react2.useState)("");
-    const [error, setError] = (0, import_react2.useState)(false);
+    const [error, setError] = (0, import_react2.useState)("");
     const [attempts, setAttempts] = (0, import_react2.useState)([]);
     const [showType, setShowType] = (0, import_react2.useState)(false);
     const [showConfetti, setShowConfetti] = (0, import_react2.useState)(false);
     const handleSubmit = (evt) => {
       evt.preventDefault();
-      if (handleValidation()) {
+      errorMessage = getErrorMessage();
+      if (errorMessage == "") {
         setAttempts([...attempts, currentWord.toLowerCase()]);
       } else {
-        setError(true);
+        setError(errorMessage);
       }
       if (pokename == currentWord.toLowerCase()) {
         setShowConfetti(true);
       }
     };
-    const handleValidation = () => {
-      return pokename.length == currentWord.length;
+    const getErrorMessage = () => {
+      if (pokename.length != currentWord.length) {
+        return `Only pokemons with ${pokename.length} letters allowed!`;
+      } else if (!CurrentWordIsPokemon(currentWord, allPokes)) {
+        return "That's not a pokemon and you know it!";
+      }
+      return "";
     };
     const handleChange = (e) => {
       setCurrentWord(e);
-      setError(false);
+      setError("");
     };
     return /* @__PURE__ */ import_react2.default.createElement("div", {
       className: "wrapper"
@@ -27032,8 +27038,7 @@
       value: "Submit",
       className: "button"
     })), /* @__PURE__ */ import_react2.default.createElement(Error2, {
-      error,
-      len: pokename.length
+      error
     }), showConfetti && /* @__PURE__ */ import_react2.default.createElement(ShowCorrect, null), /* @__PURE__ */ import_react2.default.createElement(ShowConfetti, {
       correct: showConfetti
     }), /* @__PURE__ */ import_react2.default.createElement(TypeButton, {
@@ -27045,10 +27050,10 @@
       pokename
     })));
   };
-  var Error2 = ({ error, len }) => {
+  var Error2 = ({ error }) => {
     return /* @__PURE__ */ import_react2.default.createElement("div", {
       className: "error"
-    }, error && `Only words with ${len} letters allowed!`, " ");
+    }, error != "" && error, " ");
   };
   var Attempts = ({ previousAttempts, pokename }) => {
     return /* @__PURE__ */ import_react2.default.createElement("div", null, /* @__PURE__ */ import_react2.default.createElement("div", null, "Previous Attempts:"), previousAttempts.map((attempt, index) => {
@@ -27074,6 +27079,10 @@
     } else {
       return "red";
     }
+  };
+  var CurrentWordIsPokemon = (currentWord, allPokes) => {
+    pokeArray = allPokes.split(",");
+    return pokeArray.indexOf(currentWord) > -1;
   };
   var TypeButton = ({ showType, setShowType, poketypes }) => {
     return /* @__PURE__ */ import_react2.default.createElement("div", {
@@ -27107,7 +27116,10 @@
 
   // app/javascript/react/src/index.js
   define({
-    "word-component": { component: Word_default, attributes: ["pokename", "poketypes"] }
+    "word-component": {
+      component: Word_default,
+      attributes: ["pokename", "poketypes", "allPokes"]
+    }
   });
 })();
 /**
